@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.big-wrapper{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/dd.jpg);
+    border-top: 10px solid #5385c1;
+}
+
+.header{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+.header p{
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header ul{
+    float: right;
+}    
+    
+.header li{    
+    float: left;
+    list-style: none;
+    color: #fff;
+    margin-right: 40px;
+}
+
+/*banner starts*/
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+
+.banner h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.banner p{
+    text-align: center;
+    color: #fff;
+
+}
+
+/*three-section starts*/
+
+.three-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.main{
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+
+.main h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #5385c1;
+    line-height: 30px;
+}
+
+.main p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #5385c1;
+    color: #fff;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.add-border{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #dbdbdb;
+}
+
+/*team starts*/
+
+.team{
+    width: 100%;
+    background-color: #5385c1;
+    color: #fff;
+}
+
+.fixed-width{
+    margin: 0 auto;
+    width: 60%;
+    padding: 70px 0px;
+}
+
+.fixed-width h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.fixed-width p{
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.person{
+    width: 20%;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 30px 5px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.person img{
+    border-radius: 100%;
+    width: 50%;
+}
+
+/*two-section starts here*/
+
+.two-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.two-section h1{
+    color: #5385c1;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 20px;
+}
+
+.two-section .left{
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+
+.two-section .right{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+
+.two-section h2{
+    color: #5385c1;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 20px 0px;
+}
+
+.two-section p{
+    line-height: 25px;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+/*footer starts*/
+
+hr{
+    width: 60%;
+}
+
+.last-section{
+    width: 100%;
+}
+
+.footer{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.footer p{
+    float: left;
+}
+
+.icons{
+    
+    float: right;
+    margin-right: 20%;
+}
+
+.icons li{
+    list-style: none;
+    float: right;
+    color: #5385c1;
+    margin-left: 10px;  
+}
+
+/*Media Query Starts Here*/
+
+@media only screen and (max-width:1250px){
+    .main{
+        width: 100%;
+        clear: both;
+    }
+
+    .add-border{
+        border: 0;
+        border-bottom: 1px solid grey;
+    }
+
+    .person{
+        width: 30%;
+        margin-left: 10%;
+    }
+
+    .two-section .wrapper .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .two-section .wrapper .right{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer p{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .person{
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .two-section .wrapper .left{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .two-section .wrapper .right{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .two-section h1{
+        font-size: 35px;
+    }
+
+    .two-section p{
+        font-size: 15px;
+    }
+
+    .icons{
+        margin-right: 40%;
+    }
+}
