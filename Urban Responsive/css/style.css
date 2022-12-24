@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scope One', serif;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/*header starts here*/
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h3{
+    float:left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.header h3 span{
+    color: #3498db;
+}
+
+.header a{
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.header a span{
+    margin-right: 10px;
+}
+
+/* banner starts here*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 30%;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.banner p{
+    font-size: 15px;
+}
+
+.banner button{
+    width:150px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*second-section starts*/
+
+.second-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.second-section .left{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.second-section .left img{
+    width: 100%;
+    border-radius: 100%;
+    border: 3px solid #3498db;
+}
+
+.second-section .right{
+    float: right;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.second-section .right h3{
+    font-size: 30px;
+}
+
+.second-section .right p{
+    font-size: 15px;
+    color: grey;
+}
+
+.Blue-button{
+    width: 120px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*third-section starts*/
+
+.third-section{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #3498db; 
+}
+
+.third-section-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.third-section .left{
+    width: 60%;
+    float: left;
+}
+
+.third-section h3{
+    font-size: 30px;
+    color: #fff;
+}
+
+.third-section p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.third-section .right{
+    width: 30%;
+    float: right;
+}
+
+.third-section .right img{
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 3px solid #fff;
+}
+
+.White-button{
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*last-section starts*/
+
+.last-section{
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+.last-section-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.last-section-main p{
+    text-align: center;
+}
+
+.last-section-main img{
+    width: 100%;
+}
+
+.box{
+    width: 30%;
+    margin-top: 10px;
+    float: left;
+    padding: 10px 0px;
+}
+
+.both-margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+/*footer starts*/
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .fa{
+    font-size: 20px;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+/* Media Query Starts here */
+
+@media only screen and (Max-width:600px){
+    .second-section .left{
+        width: 100%;
+        clear: both;
+    }
+
+    .second-section .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .second-section .left img{
+        width: 50%;
+    }
+
+    .third-section-main .left{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .third-section-main .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .third-section-main .right img{
+        width: 50%;
+    }
+
+    .last-section-main .box{
+        width: 100%;
+        clear: both;
+    }
+
+    .last-section-main .box img{
+        width: 50%;
+        text-align: center;
+    }
+
+    .last-section-main .box ,.both-margin{
+        margin-left: 0%;
+    }
+}
+
