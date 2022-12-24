@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header wrapper starts here */
+
+ .header-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/slide01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* header wrapper ends here */
+/* nav-bar starts here */
+
+.nav-bar h4{
+    float: left;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.nav-bar h5{
+    float: right;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.nav-bar .light-text{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.nav-bar span{
+    padding-right: 15px;
+}
+
+/* nav-bar ends here */
+/* banner starts here */
+
+.banner{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;    
+}
+
+.banner hr{
+    width: 40%;
+}
+
+.banner p{
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.banner h1{
+    font-size: 100px;
+    margin-top: 2px;
+    letter-spacing: 10px;
+}
+
+/* banner ends here */
+/* two section starts here */
+
+.full-wrapper{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #dfdfdf;
+}
+
+.full-wrapper .fixed-width{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.two-section .fixed-width img{
+    width: 100%;
+}
+
+.two-section .fixed-width h6{
+    color: grey;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.two-section .fixed-width hr{
+    width: 40%;
+    margin: 0 auto;
+    color: #dfdfdf;
+}
+
+.two-section .fixed-width h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.two-section .fixed-width p{
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.two-section .fixed-width button{
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin-top: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+/* two section ends here */
+/* center section starts here */
+
+.center-section{
+    width: 100%;
+    background-image: url(../img/slide01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.center-section p{
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 1px;  
+}
+
+.center-section hr{
+    width: 40%;
+}
+
+.center-section h5{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+/* center section ends here */
+
+/*Four image section starts here*/
+
+.four-image-section .fixed-width p{
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 1px;  
+}
+
+.four-image-section .fixed-width hr{
+    width: 40%;
+}
+
+.four-image-section .fixed-width h5{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+
+
+.four-image img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+}
+
+.four-image .left{
+    margin-left: 5%;
+}
+
+/*Four image section ends here*/
+
+/*footer section starts here*/
+
+.footer-full{
+    background-color: #000;
+    color: grey;   
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .fa{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*footer section ends here*/
+
+/*Media Query Starts*/
+
+@media only screen and (max-width:800px){
+    .banner h1{
+        font-size: 40px;
+    }
+
+    .banner p{
+        font-size: 10px;
+    }
+    
+    .two-section .fixed-width .left{
+        width: 90%;
+        clear: both;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+
+    .two-section .fixed-width .right{
+        width: 90%;
+        clear: both;
+        margin-bottom: 20px;
+        margin-right: 5%;
+    }
+
+    .four-image img{
+        width: 90%;
+        margin-bottom: 10px;
+        float: none;
+    }
+
+    .four-image .left{
+        margin-left: 0;
+    }
+}
+
+/*Media Query Ends */
+
+
